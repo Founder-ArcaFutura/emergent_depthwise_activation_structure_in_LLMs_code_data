@@ -1,0 +1,9 @@
+torch
+transformers
+pandas
+numpy
+accelerate
+bitsandbytes
+scipy
+gradio==4.44.1
+sentencepiece

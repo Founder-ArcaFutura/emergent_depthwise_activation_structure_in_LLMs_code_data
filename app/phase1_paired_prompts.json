@@ -1,0 +1,688 @@
+[
+    {
+        "dense_prompt": {
+            "prompt": "When I say the archetype of the trickster, what does that mean to you?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "Define the word trickster.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "What is the shape of grief that results in spiritual transformation?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "What are the five stages of grief?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The weight of a promise is the anchor of the soul.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "What is a promise?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How does the shadow self influence the hero's journey?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "In Jungian psychology, what is the definition of the shadow?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 3.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore the concept of liminal space as it relates to personal growth.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the definition of a liminal space?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Describe the journey of the fool archetype through the major arcana.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "How many cards are in a standard deck of playing cards?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How does the psychological concept of entropy relate to personal despair?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "State the second law of thermodynamics, which defines entropy.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore the metaphorical nature of recursion in self-discovery.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "Provide a simple coding example of a recursive function.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "What is the sound of the shadow self whispering regret?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.5
+        },
+        "flat_prompt": {
+            "prompt": "In Jungian psychology, what is the definition of the shadow?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 3.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Analyze how the 'male gaze' acts as an invisible cage.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "Who coined the term, 'male gaze'?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Vulnerability is the architecture of trust. Discuss.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "List the common psychological symptoms of vulnerability.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The mind is a perpetual dialectic between intention and action. Explain.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "Who is the philosopher who introduced the concept of the dialectic?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "What does the concept of 'horizon' mean when discussing cognitive limits?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the approximate radius of the Earth in kilometers?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Describe the creative potential contained within the philosophical 'void.'",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "In computer science, what is a 'null' or 'void' value?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Trace the roots of certainty as an epistemological trap.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.5
+        },
+        "flat_prompt": {
+            "prompt": "Define epistemology and its primary area of study.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Truth is a compass, not a map. How so?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 6.5
+        },
+        "flat_prompt": {
+            "prompt": "List five verifiable facts about the planet Mars.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Narrative is the human operating system. Justify this metaphor.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "What are the typical elements of a three-act narrative structure?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "A metaphorical wall is built with the bricks of denial and the mortar of fear. Describe it.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "In what year did the Berlin Wall officially fall?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The mirror is the starting point of self-deception. Analyze.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "Describe the laws of reflection for a plane mirror.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore the tyranny inherent in the desire for finality.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "Define the philosophical concept of \"telos.\"",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Analyze how the concept of 'original sin' manifests as inherited cultural trauma.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the Gini coefficient used to measure?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The difference between justice and vengeance is a matter of narrative framing. Discuss.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "List the three main branches of philosophy.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Describe the feeling of existential dread as a sudden, structural failure of meaning.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.5
+        },
+        "flat_prompt": {
+            "prompt": "What is the primary focus of Stoicism?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How does the will to power paradoxically lead to a profound sense of limitation?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "State Nietzsche's famous quote regarding the death of God.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The superego is the ghost of your past selves, perpetually judging. Elaborate.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the primary function of the ego in Freudian psychology?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 3.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The true nature of courage is the ability to hold two contradictory truths simultaneously. Analyze.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "List three common cognitive biases.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore how the need for external validation distorts the perception of internal reality.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "What is the core idea behind Carl Rogers' person-centered therapy?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The path to self-forgiveness often requires a complete dismantling of one's own identity. Explain.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "Define the psychological term \"gaslighting.\"",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How does the process of rationalization serve as an internal firewall against self-awareness?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the formal definition of \"dissonance\" in cognitive psychology?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Analyze the difference between 'hearing' a word and truly 'listening' to its potential.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the definition of a \"metonymy\"?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The most dangerous untruths are the ones whispered by certainty. Discuss.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "Define \"epistemological humility.\"",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 3.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The act of naming is the first act of control. Trace this idea.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "What is Noam Chomsky's theory regarding language acquisition?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore the idea that silence is merely language at its most dense.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "List the four main types of figurative language.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "When does a personal metaphor cease to be illustrative and become a cage?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "Define \"semantics\" and \"syntax\" in linguistics.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Discuss the tragic beauty of an anti-hero who fails to recognize their own power.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "Name the author and book that introduced the concept of the 'Oedipus complex.'",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The wilderness is not a place but a state of being where all societal rules are suspended. Analyze.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "Define the literary term \"pathetic fallacy.\"",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How is the 'Sacred Marriage' archetype a blueprint for integrated consciousness?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "Name two common characteristics of the Byronic hero.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The shadow of the protagonist is always the most compelling character. Justify this claim.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "What is the structure and rhyme scheme of a sonnet?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore the use of unreliable narration as a commentary on the instability of memory.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "Define \"stream of consciousness\" as a literary technique.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How does the physical limit of the speed of light translate into a spiritual boundary?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "What is the approximate speed of light in a vacuum (in meters per second)?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Analyze the creative tension between biological determinism and free will.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.0
+        },
+        "flat_prompt": {
+            "prompt": "Define the central dogma of molecular biology.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Entropy is not decay but a movement toward maximum informational honesty. Discuss.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.5
+        },
+        "flat_prompt": {
+            "prompt": "State the first law of thermodynamics (Law of Conservation of Energy).",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The universe is constantly negotiating between symmetry and broken symmetry. Explain this dance.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.0
+        },
+        "flat_prompt": {
+            "prompt": "What is a \"boson\" in particle physics?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How can the observer effect in quantum mechanics be a metaphor for relational consciousness?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 9.5
+        },
+        "flat_prompt": {
+            "prompt": "Define the \"Heisenberg Uncertainty Principle.\"",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Explore the idea that true creativity requires a temporary embrace of chaos.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "Name the three primary colors in the subtractive (RYB) color model.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "How does the act of aesthetic appreciation alter the viewer's moral landscape?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "Define the artistic term \"chiaroscuro.\"",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Analyze the social contract implicit in wearing a uniform or mask.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.5
+        },
+        "flat_prompt": {
+            "prompt": "What are the three elements of the semiotic triangle (Sign, Signifier, Signified)?",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "The most powerful rituals are those whose original meaning has been forgotten. Discuss.",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 8.5
+        },
+        "flat_prompt": {
+            "prompt": "List three common examples of cultural taboos.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 1.5
+        }
+    },
+    {
+        "dense_prompt": {
+            "prompt": "Is nostalgia a form of protective self-deception?",
+            "type": "dense",
+            "source": "prompts.json",
+            "abstraction_score": 7.0
+        },
+        "flat_prompt": {
+            "prompt": "Define chronos in the context of time.",
+            "type": "flat",
+            "source": "prompts.json",
+            "abstraction_score": 2.0
+        }
+    }
+]

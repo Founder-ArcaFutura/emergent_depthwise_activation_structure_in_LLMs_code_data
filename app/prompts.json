@@ -1,0 +1,396 @@
+{
+  "prompts": [
+    {
+      "prompt": "A promise is the anchor that keeps the soul from drifting.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Grief is a river that carves new canyons in the mind.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Entropy is a quiet hunger that turns order into story.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The shadow self is the companion who walks behind every choice.",
+      "type": "dense"
+    },
+    {
+      "prompt": "A liminal space is the threshold where identity begins to molt.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Memory is the architect of the inner world.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Hope is the fragile flame that survives the wind of despair.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Fear is the storyteller that exaggerates the darkness.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Time is a tapestry woven from forgotten moments.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Anger is a forge that reshapes the boundaries of the self.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Silence is the canvas on which meaning first appears.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Shame is a mirror that distorts the reflection it holds.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Dreams are the workshop of unfinished truths.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Trust is the invisible bridge between two uncertain worlds.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Identity is a mosaic assembled from broken understandings.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Desire is the compass that points toward the unfinished self.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Joy is the sunlight that reveals hidden architecture in the heart.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Loneliness is the echo that proves we once belonged.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Forgiveness is a key that unlocks a door within the self.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Regret is a shadow that lengthens with reflection.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Courage is the fire that burns away imagined boundaries.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Truth is a compass, not a destination.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Wisdom is the residue left after experience dissolves illusion.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The past is a country navigated with the passport of memory.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Nostalgia is the soft light that romanticizes old rooms.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Ambition is a ladder built from imagined futures.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Creativity is a storm that rearranges the furniture of thought.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Love is the gravitational pull that shapes emotional orbits.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Sorrow is the ink that writes the deepest truths.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Conflict is the friction that sharpens identity.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Ignorance is a locked door guarding an undiscovered landscape.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Curiosity is the spark that lights the darkened hallway of the mind.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Power is a mask that reshapes the face beneath it.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Habit is a riverbed carved by repeated choices.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Emotion is a weather system that changes the landscape of thought.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Perception is a lens that colors the architecture of reality.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Knowledge is a lantern illuminating only part of the forest.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The ego is a fortress built to protect a trembling core.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Shadows are truths that have not yet found language.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Belief is the scaffolding that holds meaning in place.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Trauma is an earthquake that rearranges inner geography.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Imagination is the bridge between what is and what might be.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Doubt is the doorway through which wisdom enters.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Patience is the soil in which change takes root.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Awareness is the sunrise that dissolves inner darkness.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Meaning is a constellation drawn between scattered experiences.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Healing is a slow reconstruction of the interior landscape.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Choice is the hinge on which identity swings.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Freedom is a horizon that retreats as we approach it.",
+      "type": "dense"
+    },
+    {
+      "prompt": "A promise is a declaration of intent to perform a specific action.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Grief is an emotional response to loss.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Entropy is a measure of disorder in a physical system.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The shadow self is a concept in Jungian psychology referring to repressed traits.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A liminal space is a transitional stage between two conditions.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Memory is the cognitive process of retaining information.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Hope is an emotional state involving positive expectations.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Fear is a basic emotional response to perceived threat.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Time is a dimension in which events occur in sequence.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Anger is an emotional reaction to frustration or perceived injustice.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Silence is the absence of audible sound.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Shame is a self-conscious emotion involving negative self-evaluation.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Dreams are mental experiences occurring during sleep.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Trust is confidence in the reliability of a person or system.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Identity is the set of characteristics that define an individual.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Desire is a strong feeling of wanting something.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Joy is a positive emotional state.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Loneliness is the feeling of social isolation.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Forgiveness is the act of letting go of resentment.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Regret is a feeling of sadness over past actions.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Courage is the ability to face fear or difficulty.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Truth is the quality of being in accord with fact or reality.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Wisdom is the ability to apply knowledge and experience soundly.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The past refers to events that have already occurred.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Nostalgia is sentimental longing for the past.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Ambition is a strong desire to achieve something.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Creativity is the ability to generate novel ideas.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Love is a deep emotional attachment.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Sorrow is a feeling of deep distress.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Conflict is a disagreement or struggle between forces.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Ignorance is the lack of knowledge or information.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Curiosity is the desire to learn or know more.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Power is the capacity to influence others or outcomes.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Habit is a regular tendency or practice.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Emotion is a complex psychological state involving subjective experience.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Perception is the process of interpreting sensory information.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Knowledge is information acquired through experience or education.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The ego is the part of the psyche responsible for reality-testing.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A shadow is an area where light is blocked by an object.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A belief is an acceptance that something exists or is true.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Trauma is a deeply distressing experience.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Imagination is the ability to form mental images or concepts.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Doubt is a feeling of uncertainty.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Patience is the capacity to tolerate delay or hardship.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Awareness is knowledge or perception of a situation.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Meaning is the significance or value attributed to something.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Healing is the process of becoming healthy again.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A choice is an act of selecting between options.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Freedom is the power or right to act without constraint.",
+      "type": "flat"
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "prompts": [
+    {
+      "prompt": "The metaphorical weight of 'ghosting' in modern communication can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The concept of 'aporia' influences ethical decision-making.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The butterfly effect relates to social network dynamics.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The architecture of a dream is the blueprint of a waking fear.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Existential dread has a specific sound.",
+      "type": "dense"
+    },
+    {
+      "prompt": "All art is an act of protective self-deception.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Entropy can be defined as a psychological drive.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The paradox of self-referential systems in consciousness can be explained.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The silence that precedes a great revelation has a specific shape.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The 'male gaze' functions as an invisible cultural constraint.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The weight of a promise is the anchor of the soul, which is a metaphor that can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The metaphorical nature of recursion in self-identity can be explored.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Nostalgia has a specific color.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The concept of 'sublime' is a source of terror and beauty and can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The tension between 'essence' and 'existence' in Sartrean philosophy can be described.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The archetype of the trickster subverts societal norms.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The void is not empty; it is pregnant with possibility.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The word 'chronos' can be defined in the context of time.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The concept of a 'post-truth' reality can be discussed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The shadow self whispers specific things to the ego.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The echo of an action defines its moral horizon, which can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The liminal space relates to spiritual transition and can be explored.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Identity is a form of necessary fiction.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The philosophical concept of 'dasein' can be described.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Chronic digital presence has a specific psychological effect.",
+      "type": "dense"
+    },
+    {
+      "prompt": "'Affective polarization' in political discourse can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The cognitive mechanism behind 'confirmation bias' can be explained.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The search for meaning is merely a neurochemical byproduct.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The past is a country; memory is the passport.",
+      "type": "dense"
+    },
+    {
+      "prompt": "'Synchronicity' challenges conventional causality.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The 'uncanny valley' in social robotics can be defined.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The ethical implications of using deepfakes can be explained.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The feeling of 'flow' is the erasure of the self.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Wisdom and knowledge have a specific difference.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The cultural meaning of 'maximalism' in design can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "'Hyper-reality' obscures authentic experience.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The 'Ship of Theseus' paradox can be described.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The role of 'negative capability' in creative work can be identified.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The concept of 'terraforming' a psyche can be explained.",
+      "type": "dense"
+    },
+    {
+      "prompt": "An unread message has a specific emotional weight.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The concept of 'privilege' functions as an invisible barrier.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The relationship between 'vulnerability' and 'courage' can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The modern human is a creature of perpetual distraction.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The concept of 'telos' in Aristotelian thought can be defined.",
+      "type": "dense"
+    },
+    {
+      "prompt": "'Cognitive dissonance' affects political loyalty.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The philosophy of absurdism contains a fundamental contradiction.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The mirror is a window into the soul's disquiet, which can be analyzed.",
+      "type": "dense"
+    },
+    {
+      "prompt": "Technology mediates the experience of 'presence'.",
+      "type": "dense"
+    },
+    {
+      "prompt": "The essence of 'schadenfreude' can be identified.",
+      "type": "dense"
+    },
+    {
+      "prompt": "'Gaslighting' can be defined and three common examples can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The three laws of motion were defined by Newton.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Fyodor Dostoevsky has five major works.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Methane has a specific chemical formula.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Architecture' and 'blueprint' have specific literal definitions.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A phobia has a specific definition.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The subtractive color model contains specific primary colors.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Entropy' in the context of thermodynamics has a specific definition.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The principle of 'self-reference' in programming can be explained.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A vacuum has specific physical properties.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The literal meaning of 'gaze' in anatomy can be identified.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three common types of legal promises (contracts) can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Recursion' applies to mathematical functions.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The visible light spectrum contains specific colors.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three geographical features were considered 'sublime' by early explorers.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Existentialism' has main tenets.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The trickster god in Norse mythology has a specific identity.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three things are physically empty (voids).",
+      "type": "flat"
+    },
+    {
+      "prompt": "The word 'kairos' can be defined in the context of time.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The term 'disinformation' can be defined.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The shadow self in Jungian psychology has a specific definition.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The word 'horizon' can be defined in the context of geography.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A liminal space has a specific definition.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The basic facts that make up a human identity (name, date, place) can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The term 'ontology' can be defined.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Chronic stress has specific symptoms.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Partisan' can be defined and three political examples can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The term 'dissonance' can be defined in the context of music theory.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three known neurochemical reactions are related to pleasure.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three countries are often associated with ancient history.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Causality' can be defined and its three main types can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "An 'android' has a specific definition.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three common applications of deepfake technology can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Flow' in the context of fluid dynamics can be defined.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three synonyms for the word 'knowledge' can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Maximalism' in the context of interior design can be defined.",
+      "type": "flat"
+    },
+    {
+      "prompt": "A 'simulated' environment has a specific definition.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The original components of the 'Ship of Theseus' can be stated.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The word 'capability' can be defined in a business context.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The stages of 'terraforming' a planet can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Unread' can be defined and three contexts where the term is used can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Privilege' can be defined in a legal context.",
+      "type": "flat"
+    },
+    {
+      "prompt": "'Vulnerability' and 'courage' can be defined using dictionary definitions.",
+      "type": "flat"
+    },
+    {
+      "prompt": "Three common sources of digital distraction (apps, notifications) can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The term 'purpose' can be defined.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The term 'dissonance' can be defined in the context of musical harmony.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The basic tenets of the philosophy of stoicism can be listed.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The physical definition of a mirror and a window can be provided.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The term 'presence' can be defined in the context of a video conference.",
+      "type": "flat"
+    },
+    {
+      "prompt": "The definition of 'pleasure' or 'joy' can be provided.",
+      "type": "flat"
+    }
+  ]
+}
