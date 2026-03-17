@@ -4,7 +4,7 @@ This repository is the code-and-results release for the work on the emergent dep
 
 - https://www.techrxiv.org/users/1012464/articles/1376541-emergent-depthwise-activation-structure-in-transformer-language-models-the-hau-curve-and-its-early-training-attractor-pattern
 
-At this point, the bundled analysis pipeline in [scripts/run_phase_3_analysis_pt_3.py]is the intended reproduction path for the paper-facing results included in this repo. It now runs end-to-end on the bundled result logs and regenerates the main structural analyses from the released artifacts.
+At this point, the bundled analysis pipeline in [scripts/run_statistical_analysis.py]is the intended reproduction path for the paper-facing results included in this repo. It now runs end-to-end on the bundled result logs and regenerates the main structural analyses from the released artifacts.
 
 ## What Is In This Repo
 
