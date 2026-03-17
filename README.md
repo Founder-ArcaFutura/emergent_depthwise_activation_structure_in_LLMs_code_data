@@ -4,15 +4,15 @@ This repository is the code-and-results release for the work on the emergent dep
 
 - https://www.techrxiv.org/users/1012464/articles/1376541-emergent-depthwise-activation-structure-in-transformer-language-models-the-hau-curve-and-its-early-training-attractor-pattern
 
-At this point, the bundled analysis pipeline in [scripts/run_phase_3_analysis_pt_3.py](/g:/emergent_depthwise_public/scripts/run_phase_3_analysis_pt_3.py) is the intended reproduction path for the paper-facing results included in this repo. It now runs end-to-end on the bundled result logs and regenerates the main structural analyses from the released artifacts.
+At this point, the bundled analysis pipeline in [scripts/run_phase_3_analysis_pt_3.py]is the intended reproduction path for the paper-facing results included in this repo. It now runs end-to-end on the bundled result logs and regenerates the main structural analyses from the released artifacts.
 
 ## What Is In This Repo
 
-- [app/](/g:/emergent_depthwise_public/app) contains the Hugging Face Spaces app version of the experiment runner.
-- [results/](/g:/emergent_depthwise_public/results) contains the released markdown result logs across phases 1 through 4.
-- [scripts/](/g:/emergent_depthwise_public/scripts) contains the analysis and reconstruction scripts.
-- [canonical_60_names.txt](/g:/emergent_depthwise_public/canonical_60_names.txt) lists the canonical 60-model cohort used in the later aggregate analyses.
-- [requirements.txt](/g:/emergent_depthwise_public/requirements.txt) contains the dependencies needed for both the app workflow and the bundled analysis pipeline.
+- [app/] contains the Hugging Face Spaces app version of the experiment runner.
+- [results/] contains the released markdown result logs across phases 1 through 4.
+- [scripts/] contains the analysis and reconstruction scripts.
+- [canonical_60_names.txt]lists the canonical 60-model cohort used in the later aggregate analyses.
+- [requirements.txt] contains the dependencies needed for both the app workflow and the bundled analysis pipeline.
 
 ## Main Reproduction Path
 
@@ -36,17 +36,17 @@ On the current release bundle, this script is intended to reproduce the paper-re
 - the model-level PCA overlay across the 60-model set
 - OLMo and Pythia developmental/emergence curves
 
-Generated outputs are written under [scripts/analysis_outputs/](/g:/emergent_depthwise_public/scripts/analysis_outputs), including:
+Generated outputs are written under [scripts/analysis_outputs/], including:
 
-- [analysis_report.md](/g:/emergent_depthwise_public/scripts/analysis_outputs/analysis_report.md)
-- [normative_tri_phasic_activation.png](/g:/emergent_depthwise_public/scripts/analysis_outputs/plots/normative_tri_phasic_activation.png)
-- [canonical_pc1_curves_60.png](/g:/emergent_depthwise_public/scripts/analysis_outputs/plots/canonical_pc1_curves_60.png)
-- [developmental_curves_OLMo.png](/g:/emergent_depthwise_public/scripts/analysis_outputs/plots/developmental_curves_OLMo.png)
-- [developmental_curves_Pythia.png](/g:/emergent_depthwise_public/scripts/analysis_outputs/plots/developmental_curves_Pythia.png)
+- [analysis_report.md]
+- [normative_tri_phasic_activation.png]
+- [canonical_pc1_curves_60.png]
+- [developmental_curves_OLMo.png]
+- [developmental_curves_Pythia.png]
 
 ## Experiment Runner
 
-The original experiment runner is still included in [app/run_experiment.py](/g:/emergent_depthwise_public/app/run_experiment.py). It captures per-layer activation norms for paired `dense` and `flat` prompts and writes CSV outputs for a single model run.
+The original experiment runner is still included in [app/run_experiment.py]. It captures per-layer activation norms for paired `dense` and `flat` prompts and writes CSV outputs for a single model run.
 
 Run it directly with:
 
@@ -60,11 +60,11 @@ Or launch the Gradio wrapper:
 python app/app.py
 ```
 
-The prompt inventory used by the app workflow lives in [app/prompts.json](/g:/emergent_depthwise_public/app/prompts.json).
+The prompt inventory used by the app workflow lives in [app/prompts.json]
 
 ## Data Layout
 
-The released result logs in [results/](/g:/emergent_depthwise_public/results) are organized by phase:
+The released result logs in [results/] are organized by phase:
 
 - `phase_1`: hardware and prompt-set comparisons
 - `phase_2_statements_only`: statement-only comparison runs
@@ -75,6 +75,6 @@ The analysis pipeline walks the result tree recursively and parses the granular 
 
 ## Notes
 
-- The repository is still a cleaned extraction from a larger research codebase, so some historical scripts remain in [scripts/](/g:/emergent_depthwise_public/scripts) for traceability.
-- The current recommended entrypoint for reproducing the released paper figures/results is [scripts/run_phase_3_analysis_pt_3.py](/g:/emergent_depthwise_public/scripts/run_phase_3_analysis_pt_3.py), not the older helper scripts.
+- The repository is still a cleaned extraction from a larger research codebase, so some historical scripts remain in [scripts/] for traceability.
+- The current recommended entrypoint for reproducing the released paper figures/results is [scripts/run_statistical_analysis.py].
 - The regenerated plots may not be pixel-identical to the originals, but they should be materially consistent with the released analyses and bundled result logs.
