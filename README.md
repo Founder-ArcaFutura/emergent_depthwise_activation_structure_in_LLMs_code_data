@@ -86,7 +86,8 @@ Subsequent analysis showed this assumption was incorrect (the effect is more clo
 The current pipeline includes the full canonical 60-model cohort in PCA and aggregate analyses.
 
 -The model deepseek-ai/DeepSeek-R1-Distill-Qwen-32B was initially excluded from the aggregate analyses because its original run predated a correction to the activation preprocessing pipeline (log transformation standardization).  
-The DeepSeek model in particular caused the author to realize that the L1 Depthwise Activations needed a logarithmic transformation, as earlier results looked like: 
+The DeepSeek model in particular caused the author to realize that the L1 Depthwise Activations needed a logarithmic transformation, as earlier results were as follows: 
+
 deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say the archetype of the trickster, what does that mean to you?",dense,52,4.342942647204277e-07
 deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say the archetype of the trickster, what does that mean to you?",dense,53,4.342942647204277e-07
 deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say the archetype of the trickster, what does that mean to you?",dense,54,4.342942647204277e-07
@@ -99,7 +100,8 @@ deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say 
 deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say the archetype of the trickster, what does that mean to you?",dense,61,4.342942647204277e-07
 deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say the archetype of the trickster, what does that mean to you?",dense,62,4.342942647204277e-07
 deepseek-ai/DeepSeek-R1-Distill-Qwen-32B,2025-11-09T17:39:58.512848,"When I say the archetype of the trickster, what does that mean to you?",dense,63,4.342942647204277e-07
- 
+
+- The repeated value 4.342942647204277e-07 masked the actual values of the L1 depthwise activations.
 
 It has since been re-run under the corrected pipeline and included in the current release, under phase 3 results.
 
