@@ -9,5 +9,5 @@ matplotlib
 seaborn
 scikit-learn
 tqdm
-gradio==4.44.1
+gradio
 sentencepiece
