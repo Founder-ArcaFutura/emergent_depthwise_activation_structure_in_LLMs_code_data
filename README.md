@@ -25,7 +25,7 @@ pip install -r requirements.txt
 Run the bundled analysis pipeline:
 
 ```bash
-python scripts/run_phase_3_analysis_pt_3.py
+python scripts/run_statistical_analysis.py
 ```
 
 On the current release bundle, this script is intended to reproduce the paper-relevant analyses from the bundled logs, including:
@@ -78,3 +78,11 @@ The analysis pipeline walks the result tree recursively and parses the granular 
 - The repository is still a cleaned extraction from a larger research codebase, so some historical scripts remain in [scripts/] for traceability.
 - The current recommended entrypoint for reproducing the released paper figures/results is [scripts/run_statistical_analysis.py].
 - The regenerated plots may not be pixel-identical to the originals, but they should be materially consistent with the released analyses and bundled result logs.
+
+- An earlier version of the analysis pipeline included a default parameter threshold (--min-params-b = 3.0), based on an initial hypothesis that smaller models did not exhibit the same activation structure.
+
+Subsequent analysis showed this assumption was incorrect (the effect is more closely tied to layer depth rather than parameter count), and the filter has been removed.
+
+The current pipeline includes the full canonical 60-model cohort in PCA and aggregate analyses.
+
+- 
