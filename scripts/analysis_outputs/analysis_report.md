@@ -44,16 +44,16 @@ Matched models: 14
 
 | model_id                                     | model_family   | alignment_status   |   params_b |   norm_band_deviation |
 |:---------------------------------------------|:---------------|:-------------------|-----------:|----------------------:|
-| ByteDance/Ouro-2.6B-Thinking                 | Other          | base               |     2.6000 |                1.8998 |
-| CalderaAI/13B-Ouroboros                      | Other          | base               |    13.0000 |                1.5962 |
-| openai-community/gpt2                        | Other          | instruct           |     0.1200 |                1.3515 |
-| EleutherAI/pythia-2.8b                       | Pythia         | base               |     2.8000 |                1.3297 |
-| nvidia/Nemotron-Research-Reasoning-Qwen-1.5B | Qwen           | base               |     1.5000 |                1.2841 |
-| Qwen/Qwen2.5-3B-Instruct                     | Qwen           | instruct           |     3.0000 |                1.0762 |
-| Qwen/Qwen2.5-3B                              | Qwen           | base               |     3.0000 |                1.0651 |
-| EleutherAI/pythia-1.4b-deduped               | Pythia         | base               |     1.4000 |                1.0403 |
-| openai-community/gpt2-medium                 | Other          | instruct           |     0.3500 |                1.0005 |
-| Qwen/Qwen3-1.7B                              | Qwen           | base               |     1.7000 |                0.9870 |
+| ByteDance/Ouro-2.6B-Thinking                 | Other          | base               |     2.6000 |                2.1026 |
+| CalderaAI/13B-Ouroboros                      | Other          | base               |    13.0000 |                1.5787 |
+| nvidia/Nemotron-Research-Reasoning-Qwen-1.5B | Qwen           | base               |     1.5000 |                1.3285 |
+| openai-community/gpt2                        | Other          | instruct           |     0.1200 |                1.3233 |
+| EleutherAI/pythia-2.8b                       | Pythia         | base               |     2.8000 |                1.2958 |
+| EleutherAI/pythia-12b-deduped                | Pythia         | base               |    12.0000 |                1.2931 |
+| Qwen/Qwen2.5-3B-Instruct                     | Qwen           | instruct           |     3.0000 |                1.0873 |
+| Qwen/Qwen2.5-3B                              | Qwen           | base               |     3.0000 |                1.0768 |
+| EleutherAI/pythia-1.4b-deduped               | Pythia         | base               |     1.4000 |                0.9697 |
+| openai-community/gpt2-medium                 | Other          | instruct           |     0.3500 |                0.9663 |
 
 ## Phase 3 PCA
 
@@ -61,9 +61,9 @@ Matched models: 14
 
 | curve_type   |   pc1_explained_variance_ratio |
 |:-------------|-------------------------------:|
-| dense        |                         0.3360 |
-| flat         |                         0.3319 |
-| delta        |                         0.3098 |
+| dense        |                         0.3325 |
+| flat         |                         0.3292 |
+| delta        |                         0.3441 |
 
 ## Phase 3 Training Emergence
 

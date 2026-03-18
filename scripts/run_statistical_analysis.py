@@ -683,23 +683,47 @@ def run_phase1_prompt_invariance(master_df, mean_curve_df, prompt_metrics_df, pl
 
 
 def run_phase3_normative_overlay(master_df, mean_curve_df, plots_dir, tables_dir, x_interp, min_params_b):
-    eligible = mean_curve_df[
-        mean_curve_df["phase"].isin(["phase_1", "phase_2_statements_only", "phase_3", "phase_4"]) & (mean_curve_df["training_step"] == 0)
-    ].copy()
-    eligible = eligible[eligible["params_b"].fillna(-1) >= min_params_b]
+    relevant_phases = ["phase_1", "phase_2_statements_only", "phase_3", "phase_4"]
+    records = []
+    for model_id, group in mean_curve_df[mean_curve_df["phase"].isin(relevant_phases)].groupby("model_id"):
+        params_b = group["params_b"].iloc[0]
+        if pd.notna(params_b) and params_b < min_params_b:
+            continue
+
+        steps = sorted(group["training_step"].unique())
+        if 0 in steps:
+            canonical_step = 0
+        elif steps:
+            canonical_step = max(steps)
+        else:
+            continue
+
+        step_group = group[group["training_step"] == canonical_step]
+        for prompt_type, type_group in step_group.groupby("prompt_type"):
+            records.append(
+                {
+                    "model_id": model_id,
+                    "prompt_type": prompt_type,
+                    "mean_z_curve": np.mean(np.vstack(type_group["mean_z_curve"]), axis=0),
+                    "mean_raw_curve": np.mean(np.vstack(type_group["mean_raw_curve"]), axis=0),
+                    "model_family": group["model_family"].iloc[0],
+                    "alignment_status": group["alignment_status"].iloc[0],
+                    "params_b": params_b,
+                    "training_step": canonical_step,
+                }
+            )
+
+    eligible = pd.DataFrame(records)
     if eligible.empty:
         return None
 
-    all_curves = []
-    curve_models = []
-    for _, row in eligible.iterrows():
-        all_curves.append(row["mean_z_curve"])
-        curve_models.append(row["model_id"])
+    all_curves = np.vstack(eligible["mean_z_curve"])
+    curve_models = eligible["model_id"].to_numpy()
 
-    if not all_curves:
+    if len(all_curves) == 0:
         return None
 
-    curves = np.vstack(all_curves)
+    curves = all_curves
     curve_models = np.array(curve_models)
     mean_curve = curves.mean(axis=0)
     std_curve = curves.std(axis=0)
@@ -760,26 +784,19 @@ def run_phase3_normative_overlay(master_df, mean_curve_df, plots_dir, tables_dir
     print(f"Saved plot: {overlay_path}")
 
     pca_candidates = []
-    phase_rank = {"phase_4": 4, "phase_3": 3, "phase_2_statements_only": 2, "phase_1": 1}
-    for model_id, group in mean_curve_df[
-        mean_curve_df["phase"].isin(["phase_1", "phase_2_statements_only", "phase_3", "phase_4"]) & (mean_curve_df["training_step"] == 0)
-    ].groupby("model_id"):
-        dense_rows = group[group["prompt_type"] == "dense"].copy()
-        flat_rows = group[group["prompt_type"] == "flat"].copy()
-        if dense_rows.empty or flat_rows.empty:
+    for model_id, group in eligible.groupby("model_id"):
+        dense = group[group["prompt_type"] == "dense"]
+        flat = group[group["prompt_type"] == "flat"]
+        if dense.empty or flat.empty:
             continue
-        dense_rows["phase_rank"] = dense_rows["phase"].map(phase_rank).fillna(0)
-        flat_rows["phase_rank"] = flat_rows["phase"].map(phase_rank).fillna(0)
-        best_dense = dense_rows.sort_values(["phase_rank", "params_b"], ascending=[False, False]).iloc[0]
-        best_flat = flat_rows.sort_values(["phase_rank", "params_b"], ascending=[False, False]).iloc[0]
         pca_candidates.append(
             {
                 "model_id": model_id,
-                "model_family": best_dense["model_family"],
-                "alignment_status": best_dense["alignment_status"],
-                "params_b": best_dense["params_b"],
-                "dense_curve": best_dense["mean_z_curve"],
-                "flat_curve": best_flat["mean_z_curve"],
+                "model_family": dense["model_family"].iloc[0],
+                "alignment_status": dense["alignment_status"].iloc[0],
+                "params_b": dense["params_b"].iloc[0],
+                "dense_curve": dense["mean_z_curve"].iloc[0],
+                "flat_curve": flat["mean_z_curve"].iloc[0],
             }
         )
 
