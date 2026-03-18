@@ -91,7 +91,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Unified analysis for phase 1 and phase 3 result bundles.")
     parser.add_argument("--results-root", default="../results", help="Root directory containing phase result folders.")
     parser.add_argument("--output-dir", default="analysis_outputs", help="Directory where plots/tables/reports will be written.")
-    parser.add_argument("--min-params-b", type=float, default=3.0, help="Minimum parameter count in billions for filtered phase-3 analyses.")
+    parser.add_argument("--min-params-b", type=float, default=0.0, help="Minimum parameter count in billions for filtered phase-3 analyses.")
     parser.add_argument("--phases", default="", help="Comma-separated phases to include, e.g. phase_1,phase_3.")
     parser.add_argument("--skip-pca", action="store_true", help="Skip PCA outputs.")
     parser.add_argument("--skip-report", action="store_true", help="Skip markdown report generation.")
@@ -684,7 +684,7 @@ def run_phase1_prompt_invariance(master_df, mean_curve_df, prompt_metrics_df, pl
 
 def run_phase3_normative_overlay(master_df, mean_curve_df, plots_dir, tables_dir, x_interp, min_params_b):
     eligible = mean_curve_df[
-        mean_curve_df["phase"].isin(["phase_3", "phase_4"]) & (mean_curve_df["training_step"] == 0)
+        mean_curve_df["phase"].isin(["phase_1", "phase_2_statements_only", "phase_3", "phase_4"]) & (mean_curve_df["training_step"] == 0)
     ].copy()
     eligible = eligible[eligible["params_b"].fillna(-1) >= min_params_b]
     if eligible.empty:
@@ -762,7 +762,7 @@ def run_phase3_normative_overlay(master_df, mean_curve_df, plots_dir, tables_dir
     pca_candidates = []
     phase_rank = {"phase_4": 4, "phase_3": 3, "phase_2_statements_only": 2, "phase_1": 1}
     for model_id, group in mean_curve_df[
-        mean_curve_df["phase"].isin(["phase_3", "phase_4"]) & (mean_curve_df["training_step"] == 0)
+        mean_curve_df["phase"].isin(["phase_1", "phase_2_statements_only", "phase_3", "phase_4"]) & (mean_curve_df["training_step"] == 0)
     ].groupby("model_id"):
         dense_rows = group[group["prompt_type"] == "dense"].copy()
         flat_rows = group[group["prompt_type"] == "flat"].copy()
