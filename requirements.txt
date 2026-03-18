@@ -9,5 +9,6 @@ matplotlib
 seaborn
 scikit-learn
 tqdm
+tabulate
 gradio==4.44.1
 sentencepiece
